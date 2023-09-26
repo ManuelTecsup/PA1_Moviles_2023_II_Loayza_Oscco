@@ -22,20 +22,20 @@ public class Object_pooling : MonoBehaviour
         {
             GameObject objeto_instanciado = Instantiate(prefab);
             objeto_instanciado.GetComponent<Op_object>().Set_object_pooling(this);
-
+            objeto_instanciado.SetActive(true);
             return objeto_instanciado;
         }
         else
         {
-            GameObject bala_retornada = pooling.Pop();
-
-            return bala_retornada;
+            GameObject objeto_instanciado = pooling.Pop();
+            objeto_instanciado.SetActive(true);
+            return objeto_instanciado;
         }
 
     }
     public void Retornar_objeto(GameObject objeto_retornado)
     {
-        objeto_retornado.GetComponent<Collider2D>().enabled = false;
+        
         objeto_retornado.SetActive(false);
 
         pooling.Push(objeto_retornado);
