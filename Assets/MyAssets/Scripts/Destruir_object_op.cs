@@ -18,5 +18,9 @@ public class Destruir_object_op : MonoBehaviour
         {
             Destruir();
         }
+        else if (collision.tag == "Destroyer")
+        {
+            Destruir();
+        }
     }
 }

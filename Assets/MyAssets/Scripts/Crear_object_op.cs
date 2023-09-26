@@ -20,6 +20,7 @@ public class Crear_object_op : MonoBehaviour
         {
             Crear();
         }
+        
     }
 
 }
