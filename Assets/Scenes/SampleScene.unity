@@ -478,8 +478,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs:
   - {fileID: 4049014434539521182, guid: 4b6f20ea140fa1e45beeb653a866fa43, type: 3}
-  - {fileID: 3017351031062438380, guid: 1cf5faede084b6f4eab3ffe901ad0882, type: 3}
-  - {fileID: 3159447214800423120, guid: f28ddd58306765b48b9d0a4ace67c96e, type: 3}
 --- !u!4 &829694222
 Transform:
   m_ObjectHideFlags: 0
@@ -767,30 +765,6 @@ PrefabInstance:
     - target: {fileID: 1491448985058844127, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023985181828128868, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_Color.b
-      value: 0.4764151
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023985181828128868, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023985181828128868, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9233914
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427968331479891688, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 3349508560569074608, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 18.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 3349508560569074608, guid: 121c58b1ec74a12499a8334eb23ea814, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
