@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Object_pooling : MonoBehaviour
 {
-    public GameObject prefab;
+    public List< GameObject> prefabs;
     public Stack<GameObject> pooling;
 
     private void Awake()
@@ -20,7 +20,8 @@ public class Object_pooling : MonoBehaviour
     {
         if (pooling.Count == 0)
         {
-            GameObject objeto_instanciado = Instantiate(prefab);
+            int random = Random.Range(0, prefabs.Count);
+            GameObject objeto_instanciado = Instantiate(prefabs[random]);
             objeto_instanciado.GetComponent<Op_object>().Set_object_pooling(this);
             objeto_instanciado.SetActive(true);
             return objeto_instanciado;

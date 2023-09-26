@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Crear_object_op : MonoBehaviour
 {
-    public Op_object op_Object;
+    public int id_object_pooling;
     public Transform position;
     
     public void Crear()
     {
-        GameObject objeto= op_Object.GetObject_Pooling().Get_Object();
+        GameObject objeto= Lista_objetcs_pooling.instance[id_object_pooling].Get_Object();
         objeto.transform.position = position.position;
     }
 
