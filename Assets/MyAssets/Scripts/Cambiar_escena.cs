@@ -9,6 +9,6 @@ public class Cambiar_escena : MonoBehaviour
     
     public void Cambiar()
     {
-        SceneManager.LoadScene(escenario);
+        SceneManager.LoadSceneAsync(escenario,LoadSceneMode.Additive);
     }
 }
