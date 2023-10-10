@@ -10,6 +10,10 @@ public class Player : MonoBehaviour
     public Puntaje puntaje;
     public int valor_monedas;
     public int valor_tiempo_score;
+    private void Start()
+    {
+        puntaje.puntaje = 0;
+    }
     private void Update()
     {
         rigidbody2D.velocity = new Vector2(velocidad_x,rigidbody2D.velocity.y);

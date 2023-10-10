@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 410, y: -117}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 260, y: 334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30048734
 MonoBehaviour:
@@ -204,7 +204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 30048735}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2f1bcadec4db3ea4c91b1ba9ad06dd16, type: 2}
+        m_TargetAssemblyTypeName: Lista_personajes, Assembly-CSharp
+        m_MethodName: Set_personaje_escogido_id
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &30048735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,8 +237,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -969560051, guid: 7603c634c9e8ece44a0c104890cd5e50, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -371,7 +383,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -117}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 284, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240592631
 MonoBehaviour:
@@ -416,7 +428,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1240592632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2f1bcadec4db3ea4c91b1ba9ad06dd16, type: 2}
+        m_TargetAssemblyTypeName: Lista_personajes, Assembly-CSharp
+        m_MethodName: Set_personaje_escogido_id
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1240592632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,8 +461,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -162529366, guid: 7603c634c9e8ece44a0c104890cd5e50, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -559,7 +583,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -410, y: -117}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 302, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532467132
 MonoBehaviour:
@@ -604,7 +628,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1532467133}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2f1bcadec4db3ea4c91b1ba9ad06dd16, type: 2}
+        m_TargetAssemblyTypeName: Lista_personajes, Assembly-CSharp
+        m_MethodName: Set_personaje_escogido_id
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1532467133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,8 +661,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1439470835, guid: 7603c634c9e8ece44a0c104890cd5e50, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1018,8 +1054,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1240592630}
   - {fileID: 30048733}
+  - {fileID: 1240592630}
   - {fileID: 1532467131}
   - {fileID: 1632221302}
   m_Father: {fileID: 0}
