@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public Lista_max_puntajes lista_Max_Puntajes;
     public Rigidbody2D rigidbody2D;
     public float velocidad_x;
     public float velocidad_y;
@@ -34,6 +36,11 @@ public class Player : MonoBehaviour
         if (collision.tag == "Moneda")
         {
             puntaje.Aumentar_monedas(valor_monedas);
+        }
+        else if (collision.tag == "Enemigo")
+        {
+            lista_Max_Puntajes.Enviar_puntaje(puntaje.puntaje);
+            SceneManager.LoadScene("Results");
         }
     }
 

@@ -1216,6 +1216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda7d8af3e4c7f0428caf322d9e8c9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lista_Max_Puntajes: {fileID: 11400000, guid: 70cf39bff1c2a2c4ba3679bc7c93ddfe, type: 2}
   rigidbody2D: {fileID: 1429758975}
   velocidad_x: 10
   velocidad_y: 4
