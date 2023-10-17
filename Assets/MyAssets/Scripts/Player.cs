@@ -40,7 +40,9 @@ public class Player : MonoBehaviour
         else if (collision.tag == "Enemigo")
         {
             lista_Max_Puntajes.Enviar_puntaje(puntaje.puntaje);
-            SceneManager.LoadScene("Results");
+            Scene_global_manager.instance.Mostrar_Scene("Results");
+            Scene_global_manager.instance.Ocultar_Scene("Game_");
+            
         }
     }
 

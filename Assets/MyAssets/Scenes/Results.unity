@@ -627,6 +627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 653026262}
   - component: {fileID: 653026261}
+  - component: {fileID: 653026263}
   m_Layer: 0
   m_Name: UI_MANAGER
   m_TagString: Untagged
@@ -672,6 +673,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &653026263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653026260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb7880c84cb18a40bfdb082869251e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &835333210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,19 +1811,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9056024205732438059}
   m_CullTransparentMesh: 1
---- !u!114 &902963314558493298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9056024205732438059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd9f48251875a94d8c0b6b3bc081fee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escenario: Menu
 --- !u!222 &1427346744545223637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1932,9 +1932,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 902963314558493298}
-        m_TargetAssemblyTypeName: Cambiar_escena, Assembly-CSharp
-        m_MethodName: Cambiar
+      - m_Target: {fileID: 653026263}
+        m_TargetAssemblyTypeName: Results_scene_manager, Assembly-CSharp
+        m_MethodName: boton_atras
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2063,7 +2063,6 @@ GameObject:
   - component: {fileID: 410918130184185303}
   - component: {fileID: 5063415900552202919}
   - component: {fileID: 5340813114340174044}
-  - component: {fileID: 902963314558493298}
   m_Layer: 5
   m_Name: Button_back
   m_TagString: Untagged

@@ -679,6 +679,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532467130}
   m_CullTransparentMesh: 1
+--- !u!1 &1595819178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1595819180}
+  - component: {fileID: 1595819179}
+  m_Layer: 0
+  m_Name: MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1595819179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595819178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc2e8f3d588b2a04ba673e4d59643fc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1595819180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595819178}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1515.8295, y: 1066.1443, z: -12.180701}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1632221301
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +735,6 @@ GameObject:
   - component: {fileID: 1632221305}
   - component: {fileID: 1632221304}
   - component: {fileID: 1632221303}
-  - component: {fileID: 1632221306}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -763,16 +806,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1632221306}
-        m_TargetAssemblyTypeName: Cambiar_escena, Assembly-CSharp
-        m_MethodName: Cambiar
+      - m_Target: {fileID: 1595819179}
+        m_TargetAssemblyTypeName: seleccion_personaje_scene_manager, Assembly-CSharp
+        m_MethodName: boton_play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Seleccion_personaje
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1632221304
@@ -813,19 +856,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632221301}
   m_CullTransparentMesh: 1
---- !u!114 &1632221306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632221301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd9f48251875a94d8c0b6b3bc081fee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escenario: Game_
 --- !u!1 &1885803154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,3 +1102,4 @@ SceneRoots:
   - {fileID: 172520148}
   - {fileID: 1921547053}
   - {fileID: 1288796407}
+  - {fileID: 1595819180}

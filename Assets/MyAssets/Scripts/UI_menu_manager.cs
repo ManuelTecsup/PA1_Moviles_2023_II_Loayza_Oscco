@@ -12,4 +12,13 @@ public class UI_menu_manager : MonoBehaviour
     {
         text_max_puntaje.text = "" + lista_Max_Puntajes.maximos_puntajes[lista_Max_Puntajes.maximos_puntajes.Count-1];
     }
+
+    public void Boton_play()
+    {
+        Scene_global_manager.instance.Load_Scene("Seleccion_personaje");
+    }
+    public void Boton_configuracion()
+    {
+        Scene_global_manager.instance.Load_Scene("Seleccion_personaje");
+    }
 }
