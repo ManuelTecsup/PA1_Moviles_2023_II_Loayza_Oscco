@@ -25,9 +25,8 @@ public class Splash_screen_scene : MonoBehaviour
         }
         while (Scene_global_manager.instance.Scene_is_loaded("Menu") == false)
         {
-            Debug.Log("Escena cargando");
+            yield return null;
         }
-        Debug.Log("Menu mostrando");
         Scene_global_manager.instance.Mostrar_Scene("Menu");
         Scene_global_manager.instance.Unload_scene_Async("Splash_screen");
         
