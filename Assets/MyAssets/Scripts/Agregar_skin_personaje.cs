@@ -8,6 +8,6 @@ public class Agregar_skin_personaje : MonoBehaviour
     public Transform pos_instanciacion_skin;
     private void Start()
     {
-        Instantiate(lista_Personajes.Get_personaje_escogido(), pos_instanciacion_skin);
+        Instantiate(lista_Personajes.Get_personaje_escogido().prefab, pos_instanciacion_skin);
     }
 }

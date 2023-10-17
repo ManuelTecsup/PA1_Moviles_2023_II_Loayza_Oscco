@@ -6,6 +6,7 @@ using UnityEngine;
 public class Puntaje : ScriptableObject
 {
     public int puntaje;
+    
 
     public void Aumentar_monedas(int value)
     {

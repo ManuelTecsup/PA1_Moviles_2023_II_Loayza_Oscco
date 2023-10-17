@@ -1221,6 +1221,7 @@ MonoBehaviour:
   velocidad_x: 10
   velocidad_y: 4
   puntaje: {fileID: 11400000, guid: eb8083bee9efdf741ae2df8f376cc780, type: 2}
+  data_Game: {fileID: 11400000, guid: e9c53ebff7ecce8459b1cd3f92d295b3, type: 2}
   valor_monedas: 300
   valor_tiempo_score: 1
 --- !u!114 &1429758979

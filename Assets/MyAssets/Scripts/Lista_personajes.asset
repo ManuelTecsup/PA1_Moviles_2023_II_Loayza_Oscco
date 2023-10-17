@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Lista_personajes
   m_EditorClassIdentifier: 
   personajes:
-  - {fileID: 1157560101497625069, guid: 04e6ecbe089ae584ea0bf2c9a42eeaff, type: 3}
-  - {fileID: 3761388737893777217, guid: 291b159dc6fd31943aebf4c327b0c3ff, type: 3}
-  - {fileID: 2786808139569784474, guid: 7e33881d2daede641ad21244fe829fcb, type: 3}
+  - nombre: 
+    prefab: {fileID: 1157560101497625069, guid: 04e6ecbe089ae584ea0bf2c9a42eeaff, type: 3}
+    desbloqueado: 1
+  - nombre: 
+    prefab: {fileID: 3761388737893777217, guid: 291b159dc6fd31943aebf4c327b0c3ff, type: 3}
+    desbloqueado: 0
+  - nombre: 
+    prefab: {fileID: 2786808139569784474, guid: 7e33881d2daede641ad21244fe829fcb, type: 3}
+    desbloqueado: 0
   id_personaje_escogido: 0

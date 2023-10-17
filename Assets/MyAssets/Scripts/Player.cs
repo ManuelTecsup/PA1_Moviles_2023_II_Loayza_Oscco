@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float velocidad_x;
     public float velocidad_y;
     public Puntaje puntaje;
+    public Data_game data_Game;
     public int valor_monedas;
     public int valor_tiempo_score;
     private void Start()
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         if (collision.tag == "Moneda")
         {
             puntaje.Aumentar_monedas(valor_monedas);
+            data_Game.Aumentar_monedas(1);
         }
         else if (collision.tag == "Enemigo")
         {
